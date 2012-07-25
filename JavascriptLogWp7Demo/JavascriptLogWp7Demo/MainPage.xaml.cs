@@ -22,7 +22,7 @@ namespace JavascriptLogWp7Demo
         {
             InitializeComponent();
             // replace with the url you are debugging
-            url = "http://www.microsoft.com";
+            url = "http://localhost/test.html";
             webBrowser1.Navigate(new Uri(url, UriKind.Absolute));
             webBrowser1.IsScriptEnabled = true;
         }
@@ -30,7 +30,7 @@ namespace JavascriptLogWp7Demo
         private void Logger(object sender, NotifyEventArgs e)
         {
             //Logging statements from javascript
-            System.Diagnostics.Debug.WriteLine("LOG: " + e.Value);
+            System.Diagnostics.Debug.WriteLine(e.Value);
         }
     }
 }

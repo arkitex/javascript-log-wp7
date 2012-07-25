@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<p>Windows Phone 7 Web Console Demo</p>
+
+<script type="text/javascript" src="javascriptConsoleWp7.js">
+</script>
+
+<script type="text/javascript">
+var sendLog = function() { console.log("This is a test console.log message"); };
+var sendDebug = function() { console.debug("This is a test console.debug message"); };
+var sendError = function() { console.error("This is a test console.error message"); };
+var sendInfo = function() { console.info("This is a test console.info message"); };
+var sendWarn = function() { console.warn("This is a test console.warn message"); };
+</script>
+
+</head>
+
+<body>
+
+<button onclick="sendLog()">console.log example</button>
+<p>
+<button onclick="sendDebug()">console.debug example</button>
+<p>
+<button onclick="sendError()">console.error example</button>
+<p>
+<button onclick="sendInfo()">console.info example</button>
+<p>
+<button onclick="sendWarn()">console.warn example</button>
+
+</body>
+</html>
