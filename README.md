@@ -1,6 +1,6 @@
 # Javascript Log for Windows Phone 7 #
 
-A small javascript snippet to include when debugging web applications on Windows Phone 7.
+A small javascript and C# snippet to include when debugging web applications on Windows Phone 7.
 
 ## Why? ##
 
@@ -24,7 +24,7 @@ Overrides:
 * console.info()
 * console.warn()
 
-You can pass an object into any of these functions - if the JSON object is present, the console in VS will return `JSON.stringify(yourObject);`. If JSON is not present, it will display `JSON is not defined` error. If JSON is not already a part of your web application, you can get it [here](https://github.com/douglascrockford/JSON-js)
+You can pass an object into any of these functions - if the JSON object is present, the console in VS will return `JSON.stringify(yourObject);`. If JSON is not present, it will display `JSON is not defined` error. If JSON is not already a part of your web application, you can get it [here](https://github.com/douglascrockford/JSON-js).
 
 ## License ##
 
@@ -36,4 +36,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED `AS IS`, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
